@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBody{
+    height: 100vh;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.cardMain{
+display: flex;
+align-items: center;
+    justify-content: center;
+}
+.cardMain>section{
+    width:23vw;
+    height: 50vh;
+    border: 1px solid;
+    
+}
+
+.country{
+   display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.countryName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.countryFlag{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 50px;
+}
